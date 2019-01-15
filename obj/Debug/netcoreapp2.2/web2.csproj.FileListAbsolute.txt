@@ -26,3 +26,5 @@ C:\Users\GDC3\web2\obj\Debug\netcoreapp2.2\web2.AssemblyInfo.cs
 C:\Users\GDC3\web2\obj\Debug\netcoreapp2.2\web2.RazorTargetAssemblyInfo.cache
 C:\Users\GDC3\web2\obj\Debug\netcoreapp2.2\web2.dll
 C:\Users\GDC3\web2\obj\Debug\netcoreapp2.2\web2.pdb
+C:\Users\GDC3\web2\bin\Debug\netcoreapp2.2\test.dll
+C:\Users\GDC3\web2\obj\Debug\netcoreapp2.2\web2.csproj.CopyComplete
