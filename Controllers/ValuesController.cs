@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
 using test;
 namespace web2.Controllers
 {
@@ -14,10 +15,17 @@ namespace web2.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            Class1 c1 = new Class1();
-            Console.WriteLine(c1.Getint());
-            return new string[] { "value1", "value2" };
+            Database db = new Database();
+            MySqlConnection conn = db.GetConnection();
+            if(conn==null){
+                Console.WriteLine("접속 오류");
+            }
+            else{
+                Console.WriteLine("접속 성공");
+            }
+            return new string[] { "한의", "낙타" };
         }
+        
 
         // GET api/values/5
         [HttpGet("{id}")]
