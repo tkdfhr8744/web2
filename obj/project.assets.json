@@ -12072,28 +12072,30 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\GDC3\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/root/web2/web2.csproj",
+      "projectUniqueName": "C:\\Users\\GDC3\\web2\\web2.csproj",
       "projectName": "web2",
-      "projectPath": "/root/web2/web2.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/web2/obj/",
+      "projectPath": "C:\\Users\\GDC3\\web2\\web2.csproj",
+      "packagesPath": "C:\\Users\\GDC3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GDC3\\web2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\GDC3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
