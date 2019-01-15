@@ -1,0 +1,1 @@
+server=192.168.3.147;user=root;password=1234;database=test
